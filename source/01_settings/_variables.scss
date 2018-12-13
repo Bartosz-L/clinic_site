@@ -25,6 +25,9 @@ $line-height-base: 1.5;
 $line-height-sm: 1.2;
 $line-height-lg: 1.8;
 
+// font
+$montserrat: 'Montserrat', sans-serif;
+
 // grid
 $grid-base: 10px;
 $gutter: $grid-base * 1.5;
@@ -35,8 +38,3 @@ $border-radius: $grid-base * 0.5;
 // breakpoints
 $bp-md: '800px';
 $bp-lg: '1200px';
-
-
-
-
-
