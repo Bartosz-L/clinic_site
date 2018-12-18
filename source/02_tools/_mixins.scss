@@ -1,13 +1,13 @@
-// md and bigger
+// med and up
 @mixin medium-up {
-  @media (min-width: #{bp-md}) {
+  @media (min-width: #{$bp-medium}) {
     @content
   }
 }
 
-// lg and bigger
+// large and up
 @mixin large-up {
-  @media (min-width: #{bp-lg}) {
+  @media (min-width: #{$bp-large}) {
     @content
   }
 }

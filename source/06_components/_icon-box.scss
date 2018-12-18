@@ -4,7 +4,8 @@
   &__image {
     display: flex;
     justify-content: center;
-    height: $grid-base * 6; // height of the highest icon
+    /** high of the highest icon **/
+    height: $grid-base * 6;
     margin-bottom: $grid-base * 2.5;
   }
 
