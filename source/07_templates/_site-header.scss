@@ -1,0 +1,17 @@
+.t-site-header {
+  background: url('../images/header-bkg.jpg') 0 0 no-repeat;
+
+  &__top {
+    padding-bottom: $grid-base * 2.5;
+    padding-top: $grid-base * 2.5;
+  }
+
+  &__menu {
+    margin-top: $grid-base * 2;
+
+    @include large-up {
+      margin-top: 0;
+      text-align: right;
+    }
+  }
+}
