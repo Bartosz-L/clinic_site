@@ -8,13 +8,17 @@
   }
 
   &__content {
-    background-color: $gray-light;
-    clip-path: ellipse(68% 450px at 50% 0);
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: $grid-base * 8;
-    z-index: 1000;
+    padding-bottom: $grid-base * 4;
+
+    @include large-up {
+      background-color: $gray-light;
+      clip-path: ellipse(68% 450px at 50% 0);
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: $grid-base * 8;
+      z-index: 1000;
+    }
   }
 
   &__item {
